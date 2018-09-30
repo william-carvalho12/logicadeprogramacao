@@ -1,0 +1,9 @@
+21 - Mod (Procedimento)
+
+Algorítmo Lot01_Dec21
+Declarar
+    n1, n2, n3, n4, mA:Num;
+Inicio
+    Ler n1, n2, n3, n4;
+    Proc_MediaAluno();
+Fim

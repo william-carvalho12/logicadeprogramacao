@@ -1,0 +1,14 @@
+Algorítmo Funcao_Fatorial(valor:int)
+Declarar
+    Fat:int
+Inicio
+
+    Fat = 1;
+    Para(i = valor; i>1;i--) Faca
+
+        Fat = Fat * i;
+
+    Fim-Para
+    Retorna(Fat);
+
+Fim-Segue

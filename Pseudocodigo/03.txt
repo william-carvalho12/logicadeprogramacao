@@ -1,0 +1,21 @@
+3. Receba a base e a altura de um triângulo. Calcule e mostre sua área.
+
+Algorítmo Lot01_Seq03
+Declarar
+    Base, Altura, Area: Num;
+Inicio
+    Ler Base, Altura;
+    Area = (Base * Altura) / 2;
+    Mostra Area;
+Fim
+
+Debug
+Base   | 3 
+Altura | 4
+Area   | 6
+
+Massa de Dados
+3, 4
+
+Saída
+6

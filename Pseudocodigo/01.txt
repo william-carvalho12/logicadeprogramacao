@@ -1,0 +1,20 @@
+1. Coletar o valor do lado de um quadrado, calcular sua área e apresentar o resultado.
+
+Algorítmo Lot01_Seq01
+Declarar
+    Lado, Area:int;
+Inicio
+    Ler Lado;
+    Area = (Lado^2)
+    Mostra Area;
+Fim
+
+Debug
+Lado | 5
+Area | 25
+
+Massa de Dados
+5
+
+Saída
+25

@@ -1,0 +1,29 @@
+﻿43.	Calcule e mostre quantos anos serão necessários para que Ana seja maior que Maria 
+sabendo que Ana tem 1,10 m e cresce 3 cm ao ano e Maria tem 1,5 m e cresce 2 cm ao ano.
+
+Algorítmo Lot01_Rep43
+Declarar
+    ana, maria, ano :int;
+Inicio
+
+    ana = 110;
+    maria = 150;
+
+    enquanto (ana <= maria) faca
+
+        ana = maria + 3;
+        maria = ana + 2;
+        ano++;
+
+    Fim-Enquanto
+
+    Mostra ano;
+Fim
+
+Debug
+ana   | 110 | 113 | 116 | 119 | 122 | 125 | ... | 230 | 233
+maria | 150 | 152 | 154 | 156 | 158 | 160 | ... | 230 | 233
+ano   |     |   1 |   2 |   3 |   4 |   5 | ... |  40 | 41
+
+Saída
+41

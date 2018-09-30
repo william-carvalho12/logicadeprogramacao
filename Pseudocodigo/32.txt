@@ -1,0 +1,28 @@
+32.	Receba um número inteiro. Calcule e mostre o seu fatorial.
+
+Algorítmo Lot01_Rep32
+Declara
+    x, y:Int;
+Inicio
+    Ler x;
+    y = x;
+    Enquanto (x>1)
+        y = y * (x-1);
+        x--;
+    Fim-Enquanto
+    Mostra y;
+Fim
+
+Debug
+x | 0 | 1 | 5 |  4 |  3 |  2  | 1
+y | 0 | 1 | 5 | 20 | 60 | 120 |
+
+Massa de Dados
+0
+1
+5
+
+Saída
+0
+1
+120

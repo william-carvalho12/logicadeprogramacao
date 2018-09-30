@@ -1,0 +1,12 @@
+Procedimento Proc_RaizesReais()
+
+    delta = (b^2) - 4*a*c;
+    Se (delta >= 0) então
+        r1 = (-b + delta^(1/2)) / (2*a);
+        r2 = (-b - delta^(1/2)) / (2*a);
+        Mostra "As raízes reais são: " + r1 + " e " + r2;
+    Senão
+        Mostra "Não existem raízes reais."
+    Fim-Se
+
+Segue

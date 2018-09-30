@@ -1,0 +1,17 @@
+Procedimento Proc_Ordena;
+
+    Se(x<=a) então
+        Mostra x, a, b, c;
+    Senão
+        Se(x<=b) então
+            Mostra a, x, b, c;
+        Senão
+            Se(x<=c) então
+                Mostra a, b, x ,c;
+            Senão
+                Mostra a, b, c, x;
+            Fim-Se
+        Fim-Se
+    Fim-Se
+
+Segue

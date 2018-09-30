@@ -1,0 +1,11 @@
+36 - Mod (Função)
+
+Algorítmo Lot01_Rep36
+Declarar
+    n:Int;
+Inicio
+
+    Ler n;
+    Mostra Funcao_InversoFatorial(n);
+
+Fim

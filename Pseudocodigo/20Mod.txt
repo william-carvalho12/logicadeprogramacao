@@ -1,0 +1,9 @@
+20 - Mod(Procedimento)
+
+Algorítmo Lot01_Dec20
+Declarar
+    a, b ,c, delta, r1, r2:num;
+Inicio
+    Ler a, b, c;
+    Proc_RaizesReais();
+Fim

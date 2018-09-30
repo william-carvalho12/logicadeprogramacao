@@ -1,0 +1,29 @@
+18.	Receba 2 valores inteiros. Calcule e mostre o resultado da diferença do maior pelo menos valor.
+
+Algorítmo Lot01_Dec18
+Declarar
+    x, y, dF:Num;
+Inicio
+    Ler x, y;
+    Se (x>=y) então
+        dF = x-y; 
+    Senão
+        dF = y-x;
+    Fim-Se
+    Mostra dF
+Fim
+
+Debug
+x  | 9 | 3 | 8
+y  | 4 | 7 | 8
+df | 5 | 4 | 0
+
+Massa de Dados
+9, 4
+3, 7
+8, 8
+
+Saída
+5
+4
+0

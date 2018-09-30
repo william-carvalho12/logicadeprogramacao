@@ -1,0 +1,22 @@
+7.	Receba os valores do comprimento, largura e altura de um paralelepípedo. Calcule e mostre seu volume.
+
+Algorítmo Lot01_Seq07
+Declarar
+    comp, largura, h, volume:Num;
+Inicio
+    Ler comp, lagura, h;
+    Volume =  comp * largura * h;
+    Mostra volume;
+Fim
+
+Debug
+comp    | 10
+largura | 5
+h       | 3
+volume  | 150
+
+Massa de Dados
+10, 5, 3
+
+Saída
+150

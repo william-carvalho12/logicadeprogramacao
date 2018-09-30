@@ -1,0 +1,73 @@
+40.	Receba 2 números inteiros. Verifique e mostre todos os números primos existentes entre eles.
+
+Declarar
+    valor1, valor2, p, r, t, i :int;
+INICIO
+
+    Ler valor1;
+    Ler valor2;
+
+    Enquanto (valor1 < valor2)
+       
+        p = 1;
+       
+        Para (i=2; i<valor2; i++) Faca
+
+            r = valor2 / i;
+            t = R - Int(r);
+
+            Se (t==0) Então
+                p = 0;
+            Fim-Se
+        Fim-Para
+
+        Se (p == 1) Então
+            Mostra valor2;
+        Fim-Se
+    Fim-Enquanto
+Fim
+
+
+
+Valor2:  6
+R:  3
+T:  0
+I:  2
+Valor2:  6
+R:  2
+T:  0
+I:  3
+Valor2:  6
+R:  1.5
+T:  0.5
+I:  4
+Valor2:  6
+R:  1.2
+T:  0.19999999999999996
+I:  5
+Valor2:  5
+R:  2.5
+T:  0.5
+I:  2
+Valor2:  5
+R:  1.6666666666666667
+T:  0.6666666666666667
+I:  3
+Valor2:  5
+R:  1.25
+T:  0.25
+I:  4
+VALOR2:  5
+Valor2:  4
+R:  2
+T:  0
+I:  2
+Valor2:  4
+R:  1.3333333333333333
+T:  0.33333333333333326
+I:  3
+Valor2:  3
+R:  1.5
+T:  0.5
+I:  2
+VALOR2:  3

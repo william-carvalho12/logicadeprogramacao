@@ -1,0 +1,19 @@
+Algoritmo Funcao_Fibonacci(n:int)
+Declarar
+    valor1, valor2, troca :num;
+Inicio
+
+    valor2 = 1;
+    Para(i=0;i<=n;i++) Faca
+
+        mostra valor1; 
+        troca = valor1;
+        valor1 = valor2;
+        valor2 = troca;
+        valor1 = valor1 + valor2;
+      
+    Fim-Para
+
+    Retorna 0;
+    
+Fim-Segue

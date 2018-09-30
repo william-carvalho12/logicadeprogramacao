@@ -1,0 +1,19 @@
+Procedimento Proc_Divisivel();
+
+    r2 = x % 2;
+    r3 = x % 3;
+    Se (r2 == 0 && r3 == 0) então
+        Mostra "Divisível por 2 e 3.";
+    Senão
+        Se(r2 == 0) então
+            Mostra "Divisível apenas por 2.";
+        Senão
+            Se (r3 == 0) então
+                Mostra "Divisível apenas por 3.";
+            Senão
+                Mostra "Não divisível por 2 nem 3.";
+            Fim-Se
+        Fim-Se
+    Fim-Se
+
+Segue

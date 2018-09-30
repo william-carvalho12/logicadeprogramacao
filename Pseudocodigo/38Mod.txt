@@ -1,0 +1,30 @@
+38 - Mod (Função)
+
+Declarar
+
+  menor, maior, n : int;
+
+Inicio
+
+    Para (i=0;i<=100; i++) Faca
+  
+        Leia n;
+        Se (n < 0) Então
+
+            Mostra "Erro! Insira somente valores positivos!";
+            i--;
+        
+        Senão
+    
+            menor = Funcao_Menor(n, menor);  //Função do exercício 35
+
+            maior = Funcao_Maior(n, maior);  //Funçao do exercício 35
+
+        Fim-Se
+
+    Fim-Para
+
+    Mostra "Menor: " + menor;
+    Mostra "Maior: " + maior;
+
+Fim

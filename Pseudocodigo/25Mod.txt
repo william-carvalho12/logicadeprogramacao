@@ -1,0 +1,14 @@
+25 - Mod(Procedimento)
+
+Algorítmo Lot01_Dec25
+Declarar
+    horaInicio, minutosInicio, horaFim, minutosFim, horas, minutos:int;
+Inicio
+    Ler horaInicio;
+    Ler minutosInicio;
+    Ler horaFim;
+    Ler minutosFim;
+
+    Proc_TempoJogo();
+
+Fim

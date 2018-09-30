@@ -1,0 +1,23 @@
+17.	Calcule a quantidade de litros gastos em uma viagem, sabendo que o automóvel faz 12 km/l. Receber o tempo de percurso e a velocidade média.
+
+Algorítmo Lot01_Seq17
+Declarar
+    t, vM, s, lG:Num;
+Inicio
+    Ler t, vM;
+    s = vM * t;
+    lG = s/12;
+    Mostra lG;
+Fim
+
+Debug
+t  | 1,5
+vM | 30
+s  | 45
+lG | 3,75
+
+Massa de dados
+(1,5), 30, 45
+
+Saída
+(3,75)

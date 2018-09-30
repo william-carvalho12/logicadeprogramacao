@@ -1,0 +1,14 @@
+Procedimento Proc_Multiplo()
+
+    Se (x>=y) então
+        r = x % y;
+    Senão
+        r = y % x;    
+    Fim-Se
+    Se (r == 0) então
+        Mostra "O maior é múltiplo do menor";
+    Senão
+        Mostra "O maior não é múltiplo do menor";
+    Fim-Se   
+
+Segue

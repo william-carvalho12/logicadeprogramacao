@@ -1,0 +1,22 @@
+31 - Mod(Função)
+
+Algorítmo Lot01_Rep31
+Declarar
+    x:Int;
+Inicio
+    Para(x=11; x<150; x++) Faça
+        
+        Mostra Funcao_Quadrado(x);        
+
+    Fim-Para
+Fim
+
+Debug
+x | 11 | 12 | ... | 148 | 149 | 150
+
+Saída
+121
+144
+...
+21904
+22201

@@ -1,0 +1,12 @@
+Algorítmo Funcao_Menor(valor1:int, valor2:int)
+Declarar
+
+Inicio
+
+    Se(valor1 < valor2)
+        Return Valor1;
+    Senão
+        Return Valor2;
+    Fim-Se
+    
+Fim-Segue

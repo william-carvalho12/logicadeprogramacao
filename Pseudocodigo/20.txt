@@ -1,0 +1,35 @@
+20.	Receba 3 coeficientes A, B, e C de uma equação do 2º grau da fórmula AX²+BX+C=0. Verifique e mostre a existência de raízes reais e se caso exista, calcule e
+mostre.
+
+Algorítmo Lot01_Dec20
+Declarar
+    a, b ,c, delta, r1, r2:num;
+Inicio
+    Ler a, b, c;
+    delta = (b^2) - 4*a*c;
+    Se (delta >= 0) então
+        r1 = (-b + delta^(1/2)) / (2*a);
+        r2 = (-b - delta^(1/2)) / (2*a);
+        Mostra "As raízes reais são: " + r1 + " e " + r2;
+    Senão
+        Mostra "Não existem raízes reais."
+    Fim-Se
+Fim
+
+Debug
+a     | 1  | 1 | -1
+b     | 5  | 0 |  2
+c     | 6  | 0 |  3
+delta | 1  | 0 | -8
+r1    | -2 | 0 |  
+r2    | -2 | 0 |
+
+Massa de Dados
+1, 5, 6
+1, 0, 0 
+-1, 2, 3
+
+Saída
+-2, -3
+0, 0
+"Não existem saídas reais."

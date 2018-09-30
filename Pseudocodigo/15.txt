@@ -1,0 +1,22 @@
+15.	Receba os valores de 2 catetos de um triângulo retângulo. Calcule e mostre a hipotenusa.
+
+Algorítmo Lot01_Seq15
+Declarar
+    c1, c2, h:Num;
+Inicio
+    Ler c1, c2;
+    h = ((c1^2) + (c2^2)) ^ (1/2);
+    Mostra h;
+Fim
+
+Debug
+
+C1 | 3
+C2 | 4 
+h  | 5
+
+Massa de Dados
+3,4
+
+Saída
+5

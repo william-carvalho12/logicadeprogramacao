@@ -1,0 +1,21 @@
+13.	Receba a quantidade de alimento em quilos. Calcule e mostre quantos dias durará esse alimento sabendo que a pessoa consome 50g ao dia.
+
+Algorítmo Lot01_Seq13
+Declarar
+    Akg:Num;
+    dias:Int;
+Inicio
+    Ler Akg;
+    dias = Akg / 0.05;
+    Mostrar dias;
+Fim
+
+Debug
+Akg  | 2,47
+dias | 49
+
+Massa de Dados
+2,47
+
+Saída
+49

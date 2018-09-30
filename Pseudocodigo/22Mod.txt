@@ -1,0 +1,9 @@
+22 - Mod(Procedimento)
+
+Algorítmo Lot01_Dec22
+Declarar
+    x, y:Int;
+Inicio
+    Ler x, y;
+    Proc_MostraMaior();
+Fim

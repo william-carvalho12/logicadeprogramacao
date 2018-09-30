@@ -1,0 +1,22 @@
+Algoritmo Funcao_DadosSoma7(x:int, y:int)
+Declarar
+
+Inicio
+
+    Para (i=1;i<=x;i++) Faca
+   
+        Para (k=1;k<=y;k++) Faca
+    
+            Se (i + k == 7) Então
+        
+                Mostra i + " + " + k + " = 7";
+        
+            Fim-Se
+
+        Fim-Para
+    
+    Fim-Para
+
+    Retorna 0;
+
+Fim-Segue

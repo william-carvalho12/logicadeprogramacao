@@ -1,0 +1,12 @@
+Algoritmo Funcao_Tabuada(valor:int)
+Declarar
+    
+Inicio
+
+    Para(i = 0; i<=10; i++)
+        Mostra valor * i;
+    Fim-Para
+
+    Retorna 0;
+
+Fim-Segue

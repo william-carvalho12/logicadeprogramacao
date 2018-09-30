@@ -1,0 +1,12 @@
+45 - Mod (Função)
+
+Declarar
+	x:int;
+
+Inicio
+
+	x = 15
+
+	Função_Serie(x);	
+
+Fim

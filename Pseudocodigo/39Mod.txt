@@ -1,0 +1,16 @@
+39 - Mod (Função)
+
+Algorítmo Lot01_Rep39
+Declarar
+    casa, qnt:Int;
+Inicio
+    casa = 64
+    Para (i = 0; i < casa; i++) Faca
+
+        qnt = Funcao_ExpoenteBase2(i);
+
+    Fim-Para
+
+    Mostra qnt;
+
+Fim

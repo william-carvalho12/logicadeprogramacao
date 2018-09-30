@@ -1,0 +1,23 @@
+12.	Receba o ano de nascimento e o ano atual. Calcule e mostre a sua idade e quantos anos terá daqui a 17 anos.
+
+Algorítmo Lot01_Seq12
+Declarar
+    AnoA, AnoN, Ia, If:Int;
+Inicio
+    Ler AnoA, AnoN;
+    Ia = AnoA - AnoN;
+    If = Ia + 17;
+    Mostra Ia + ", " + If;
+Fim
+
+Debug
+AnoA | 2018
+AnoN | 2000
+Ia   | 18
+If   | 35
+
+Massa de Dados
+2018, 2000
+
+Saída
+18, 35

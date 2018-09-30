@@ -1,0 +1,9 @@
+Procedimento Proc_DIFMN()
+
+    Se (x>=y) então
+        dF = x-y; 
+    Senão
+        dF = y-x;
+    Fim-Se
+
+Segue

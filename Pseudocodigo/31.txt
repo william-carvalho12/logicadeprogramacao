@@ -1,0 +1,23 @@
+31.	Calcule e mostre o quadrado dos números entre 10 e 150.
+
+Algorítmo Lot01_Rep31
+Declarar
+    x, resultado:Int;
+Inicio
+    Para(x=11; x<150; x++) Faça
+        resultado = x^2;
+        Mostra resultado; 
+    Fim-Para
+Fim
+
+Debug
+x         | 11  | 12  | 13  | ... | 148   | 149   | 150
+resultado | 121 | 144 | 169 | ... | 21904 | 22201 |
+
+Saída
+121
+144
+169
+...
+21904
+22201

@@ -1,0 +1,36 @@
+36.	Receba um número N. Calcule e mostre a série 1 + 1/1! + 1/2! + ... + 1/N!
+
+Algorítmo Lot01_Rep36
+Declarar
+    n, x:Int;
+    fatorial, serie:Num;
+Inicio
+    Ler n;
+    n = n + 1;
+    x = 1;
+    fatorial = 1;
+    serie = 1;
+    enquanto(x<=n)
+        fatorial = fatorial * x;
+        x++;
+        Mostra serie;
+        serie = serie + 1/fatorial;
+    Fim-enquanto
+Fim
+
+Debug
+n        | 5 | 6 |      |      |      |
+fatorial | 1 | 1 |    2 |    6 |   24 |  120 | 720
+x        | 1 | 2 |    3 |    4 |    5 |    6 | 7
+serie    | 1 | 2 | 2.50 | 2.66 | 2.70 | 2.71 | 2.71
+
+Massa de Dados
+5
+
+Saída
+1
+2
+(2.50)
+(2.66)
+(2.70)
+(2.71)

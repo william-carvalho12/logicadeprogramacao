@@ -1,0 +1,9 @@
+23 - Mod(Procedimento)
+
+Algoritmo  Lot01_Dec23
+Declarar
+    a, b, c, x:Num;
+Inicio
+    Ler a, b, c, x;
+    Proc_Ordena();
+Fim

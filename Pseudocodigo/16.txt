@@ -1,0 +1,26 @@
+16.	Receba a quantidade de horas trabalhadas, o valor por hora, o percentual de desconto e o número de descendentes.Calcule o salário que serão as horas trabalhadas
+ x o valor por hora. Calcule o salário líquido (= Salário Bruto – desconto). A cada dependente será acrescido R$ 100 no Salário Líquido. Exiba o salário a receber.
+
+ Algorítmo Lot01_Seq16
+ Declarar
+    hT, vPH, pD, nD, sB, sL:Num;
+Inicio
+    Ler hT, vPH, pD, nD;
+    sB = hT * vPH;
+    sL = (sB * (1-(pD/100))) + (100*nD);
+    Mostras sL;
+Fim
+
+Debug
+hT  | 30
+vPH | 150
+pD  | 28
+nD  | 4
+sB  | 4500
+sL  | 4540
+
+Massa de Dados
+30, 150, 8, 4
+
+Saída
+4540

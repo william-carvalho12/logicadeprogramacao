@@ -1,0 +1,13 @@
+Algoritmo Funcao_SomaInversa(num:num)
+Declarar
+    soma:num;
+Inicio
+
+    Enquanto (num>0)
+        soma = soma + 1/num;
+        num--;
+    Fim-Enquanto
+    
+    Retorna soma;
+
+Fim-Segue

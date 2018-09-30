@@ -1,0 +1,43 @@
+35.	Receba 2 números inteiros, verifique qual o maior entre eles. Calcule e mostre o resultado da somatória dos números ímpares entre esses valores.
+
+Algorítmo Lot01_Rep35
+Declarar
+    x, y, maior, menor, resto, somatoria:Int;
+Inicio
+    Ler x;
+    Ler y;
+    somatoria = 0;
+    Se(x>=y) então
+        maior = x;
+        menor = y;
+    Senao
+        maior = y;
+        menor = x;
+    Fim-Se
+    Para(i = maior-1; i > menor; i--) Faça
+        resto = i%2;
+        Se(resto =! 0) então
+            somatoria = somatoria + i;
+        Fim-Se
+    Fim-Para
+    Mostra somatoria;
+Fim 
+
+Debug
+x         | 5 | 8 | 4 |
+y         | 5 | 4 | 8 |
+maior     | 5 | 8 | 8 |
+menor     | 5 | 4 | 4 |                 
+i         |   | 8 | 7 | 6  | 5 | 4 |
+resto     |   | 0 | 1 | 0  | 1 |   |
+somatoria | 0 | 0 | 7 | 12 |   |   |
+
+Massa de Dados
+5, 5
+8, 4
+4, 8 //O terceiro teste leva ao mesmo resultado por ser a mesma entrada de dados, então essa parte é apenas para testar o senao.
+
+Saída
+0
+12
+12

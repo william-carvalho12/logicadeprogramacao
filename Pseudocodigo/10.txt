@@ -1,0 +1,23 @@
+10.	Receba 2 números reais. Calcule e mostre a diferença desses valores.
+
+Algorítmo Lot01_Seq10
+Declarar
+    x, y, r:num;
+Inicio
+    Ler x,y;  
+    r = x-y;
+    Mostra R;
+Fim
+
+Debug
+x |  2 | 4 |
+y |  3 | 2 |
+r | -1 | 2 |
+
+Massa de Dados
+2, 3
+4, 2
+
+Saída
+-1
+2

@@ -1,0 +1,12 @@
+44 - Mod (Função)
+
+Declarar
+    base, expoente:num;
+Inicio
+
+    Ler base;
+    Ler expoente;
+
+    Mostra Funcao_Potenciacao(base, expoente);
+
+Fim

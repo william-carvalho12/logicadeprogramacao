@@ -1,0 +1,18 @@
+2. Receba o salário de um funcionário e mostre o novo salário com reajuste de 15%.
+
+Algorítmo Lot01_Seq02
+Declarar
+    Salario: Num;
+Inicio
+    Ler Salario;
+    Salario = Salario*1.15;
+    Mostra Salario;
+Fim
+
+Debug
+salario | 1000 | 1150
+
+Massa de Dados
+1000
+
+Saída 1150

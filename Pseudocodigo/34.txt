@@ -1,0 +1,22 @@
+34.	Receba um número. Calcule e mostre os resultados da tabuada desse número.
+
+Algorítmo Lot01_Rep34
+Declarar
+    x, tabuada:Int;
+Inicio
+    Ler x;
+    Para (i = 0; i<=10; i++) Faça
+        tabuada = x * i;
+        Mostra tabuada;
+    Fim-Para
+Fim
+
+Debug
+x | 5
+i | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11
+
+Massa de Dados
+5
+
+Saída
+0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50

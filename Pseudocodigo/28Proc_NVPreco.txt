@@ -1,0 +1,18 @@
+Procedimento Proc_NVPreco();
+
+    Se (mediaM < 500 && precoA < 30) então
+        precoN = precoA * 1.10;
+    Senao
+        Se(mediaM >= 500 && mediaM < 1000 && precoA >=30 && precoA <80) então
+            precoN = precoA * 1.15;
+        Senao
+            Se(mediaM >= 1000 && precoA >= 80) então
+                precoN = precoA * 0.95;
+            Senao
+                precoN = precoA;
+            Fim-Se
+        Fim-Se
+    Fim-Se
+    Mostra precoN;
+
+Segue

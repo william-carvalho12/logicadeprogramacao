@@ -1,0 +1,12 @@
+41.	Mod(Função)
+
+Declarar
+  x, y :int;
+Inicio
+
+  x=6;
+  y=6;
+
+  Funcao_DadosSoma7(x,y);
+
+Fim

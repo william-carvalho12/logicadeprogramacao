@@ -1,0 +1,9 @@
+Algoritmo Funcao_ExpoenteBase2(expoente:int)
+Declarar
+    Valor
+Inicio
+
+    valor = 2 ^ expoente;
+    Retorna expoente;
+
+Fim-Segue

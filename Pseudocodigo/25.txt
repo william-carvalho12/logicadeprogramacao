@@ -1,0 +1,51 @@
+25.	Receba a hora de início e de final de um jogo (HH,MM), calcular o tempo do jogo em horas e minutos, sabendo que o tempo máximo é menor que 24 horas e pode começar
+dia e terminar noutro.
+
+Algorítmo Lot01_Dec25
+Declarar
+    horaInicio, minutosInicio, horaFim, minutosFim, horas, minutos:int;
+Inicio
+    Ler horaInicio;
+    Ler minutosInicio;
+    Ler horaFim;
+    Ler minutosFim;
+    
+    horas = horaFim - horaInicio;
+
+    Se (horas < 0) então
+        horas = 24 + horas
+    Fim-Se
+
+    minutos = minutosFim-minutosInicio;
+
+    Se (minutos < 0) então
+        Se(minutosFim<minutosInicio) então
+            horas--;
+        Fim-Se
+        minutos = 60 + minutos;
+    Fim-Se
+    
+    Mostra horas;
+    Mostra Minutos;
+Fim
+
+Debug
+horaInicio    |  23 |               |  23 |         |  03 |          | 03 |
+minutosInicio |  59 |               |  00 |         |  30 |          | 00 |
+horaFim       |  02 |               |  02 |         |  06 |          | 06 |
+minutosFim    |  00 |               |  59 |         |  00 |          | 30 |
+horas         | -21 | 03 | 02 |     | -21 | 03 |    |  03 | 02 |     | 03 |
+minutos       | -59 | 01 |          |  59 |         | -30 | 30 |     | 30 |
+
+Massa de Dados
+23, 59, 02, 00
+23, 00, 02, 59
+03, 30, 06, 00
+03, 00, 06, 30
+
+
+Saída
+02, 01
+03, 59
+02, 30
+03, 30

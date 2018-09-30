@@ -1,0 +1,13 @@
+35 - Mod (Função)
+
+Algorítmo Lot01_Rep35
+Declarar
+    x, y:Int;
+Inicio
+
+    Ler x;
+    Ler y;
+
+    Mostra Funcao_SomatoriaImpares(x, y);
+   
+Fim 

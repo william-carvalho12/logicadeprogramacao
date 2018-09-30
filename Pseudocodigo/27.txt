@@ -1,0 +1,25 @@
+27.	Receba o número de voltas, a extensão do circuito (em metros) e o tempo de duração (minutos). Calcule e mostre a velocidade média em km/h.
+
+Algorítmo Lot01_Dec27
+Declarar
+    nV, eC, t, vM:Num;
+Inicio
+    Ler nV;
+    Ler eC;
+    Ler t;
+    vM = (nV * eC) / t;
+    vM = (vM * 60) / 1000;
+    Mostra vM;
+Fim
+
+Debug
+nV |   5 |
+eC | 500 |
+t  |  10 |
+vM | 250 | 15
+
+Massa de Dados
+5, 500, 10
+
+Saídas
+15

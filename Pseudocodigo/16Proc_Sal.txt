@@ -1,0 +1,6 @@
+Procedimento Proc_Sal()
+
+  sB = hT * vPH;
+  sL = (sB * (1-(pD/100))) + (100*nD);
+
+Segue

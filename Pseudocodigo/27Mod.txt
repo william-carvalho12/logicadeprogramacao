@@ -1,0 +1,14 @@
+27 - Mod(Procedimento)
+
+Algorítmo Lot01_Dec27
+Declarar
+    nV, eC, t, vM:Num;
+Inicio
+    Ler nV;
+    Ler eC;
+    Ler t;
+
+    Proc_VM();
+
+    Mostra vM;
+Fim

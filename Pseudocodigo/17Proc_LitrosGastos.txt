@@ -1,0 +1,6 @@
+Procedimento Proc_LitrosGastos()
+
+   s = vM * t;
+   lG = s/12;
+    
+Segue

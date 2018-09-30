@@ -1,0 +1,40 @@
+24.	Receba um valor inteiro. Verifique e mostre se é divisível por 2 e 3.
+
+Algorítmo Lot01_Dec24
+Declarar
+    x, r2, r3:Int;
+Inicio
+    Ler x;
+    r2 = x % 2;
+    r3 = x % 3;
+    Se (r2 == 0 && r3 == 0) então
+        Mostra "Divisível por 2 e 3.";
+    Senão
+        Se(r2 == 0) então
+            Mostra "Divisível apenas por 2.";
+        Senão
+            Se (r3 == 0) então
+                Mostra "Divisível apenas por 3.";
+            Senão
+                Mostra "Não divisível por 2 nem 3.";
+            Fim-Se
+        Fim-Se
+    Fim-Se
+Fim
+
+Debug
+x  | 6 | 4 | 9 | 47
+r2 | 0 | 0 | 1 | 1
+r3 | 0 | 1 | 0 | 2
+
+Massa de dados
+6
+4
+9
+47
+
+Saídas
+"Divisível por 2 e 3."
+"Divisível apenas por 2"
+"Divisível apenas por 3."
+"Não divisível por 2 nem 3." 

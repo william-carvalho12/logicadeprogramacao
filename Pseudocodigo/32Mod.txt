@@ -1,0 +1,11 @@
+32 - Mod(Função)
+
+Algorítmo Lot01_Rep32
+Declara
+    x:Int;
+Inicio
+
+    Ler x;
+    Mostra Funcao_Fatorial(x);
+
+Fim

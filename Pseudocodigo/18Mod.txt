@@ -1,0 +1,10 @@
+18 - Mod(Procedimento)
+
+Algorítmo Lot01_Dec18
+Declarar
+    x, y, dF:Num;
+Inicio
+    Ler x, y;
+    Proc_DIFMN();
+    Mostra dF;
+Fim

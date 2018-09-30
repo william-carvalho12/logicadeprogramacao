@@ -1,0 +1,38 @@
+﻿
+//37.	Receba um número inteiro. Calcule e mostre a série de Fibonacci até o seu N’nésimo termo.
+
+Algorítmo Lot01_Rep37
+Declarar
+  n, valor1, valor2, troca :num;
+Inicio
+  Ler n;
+  valor2 = 1;
+  Para(i=0;i<=n;i++) Faca
+
+    mostra valor1; 
+    troca = valor1;
+    valor1 = valor2;
+    valor2 = troca;
+    valor1 = valor1 + valor2;
+      
+  Fim-Para
+
+Fim
+
+Debug
+n      | 5 |
+valor1 | 0 | 1 | 1 | 0 | 1 | 1 | 2 | 1 | 3 | 2 | 5 | 3 | 8
+valor2 | 1 | 0 | 1 | 1 | 2 | 3 | 5
+troca  | 0 | 1 | 1 | 2 | 3 | 5 
+i      | 0 | 1 | 2 | 3 | 4 | 5 | 6
+
+Massa de Dados
+6
+
+Saída
+0
+1
+1
+2
+3
+5

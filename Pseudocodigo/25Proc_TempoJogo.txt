@@ -1,0 +1,22 @@
+Procedimento Proc_TempoJogo()
+
+    
+    horas = horaFim - horaInicio;
+
+    Se (horas < 0) então
+        horas = 24 + horas
+    Fim-Se
+
+    minutos = minutosFim-minutosInicio;
+
+    Se (minutos < 0) então
+        Se(minutosFim<minutosInicio) então
+            horas--;
+        Fim-Se
+        minutos = 60 + minutos;
+    Fim-Se
+    
+    Mostra horas;
+    Mostra Minutos;
+
+Segue

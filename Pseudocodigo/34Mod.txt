@@ -1,0 +1,11 @@
+34 - Mod (Função)
+
+Algorítmo Lot01_Rep34
+Declarar
+    x:Int;
+Inicio
+
+    Ler x;
+    Funcao_Tabuada(x);    
+
+Fim

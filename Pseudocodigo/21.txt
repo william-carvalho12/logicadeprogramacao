@@ -1,0 +1,42 @@
+21.	Receba 4 notas bimestrais de um aluno. Calcule e mostre a média aritmética. Mostre a mensagem de acordo com a média:
+a.	Se a média for >= 6,0 exibir “APROVADO”;
+b.	Se a média for >= 3,0 e < 6,0 exibir “EXAME”;
+c.	Se a média for < 3,0 exibir “RETIDO”.
+
+Algorítmo Lot01_Dec21
+Declarar
+    n1, n2, n3, n4, mA:Num;
+Inicio
+    Ler n1, n2, n3, n4;
+    mA = (n1 + n2 + n3 + n4) / 4;
+    Se (mA>=6) então
+        Mostra "APROVADO";
+    Senão
+        Se (mA>=3) então
+            Mostra "EXAME";
+        Senão
+            Mostra "RETIDO";
+        Fim-Se
+    Fim-Se
+Fim
+
+Debug
+n1 | 10 | 8,3 | 7   | 4 | 2
+n2 | 7  | 4,7 | 3   | 2 | 3
+n3 | 6  | 6   | 4   | 5 | 1
+n4 | 9  | 5   | 4   | 1 | 2
+mA | 8  | 6   | 4,5 | 3 | 2
+
+Massa de Dados
+10, 7, 6, 9
+(8,3), (4,7), 6, 5
+7, 3, 4, 4
+4, 2, 5, 1
+2, 3, 1, 2
+
+Saídas
+"APROVADO"
+"APROVADO"
+"EXAME"
+"EXAME"
+"RETIDO"

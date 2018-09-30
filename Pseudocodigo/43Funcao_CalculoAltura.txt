@@ -1,0 +1,16 @@
+Algoritmo Funcao_CalculoAltura(ana:int, maria:int)
+Declarar
+
+Inicio
+
+    Enquanto (ana <= maria) Faca
+
+        ana = maria + 3;
+        maria = ana + 2;
+        ano++;
+
+    Fim-Enquanto
+
+    Retorna ano;
+
+Fim-Segue

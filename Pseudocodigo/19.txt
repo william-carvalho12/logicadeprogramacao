@@ -1,0 +1,27 @@
+19.	Receba 2 valores reais. Calcule e mostre o maior deles.
+
+Algoritmo Lot01_Dec19
+Declarar
+    x,y:NUM;
+Inicio
+    Ler x, y;
+    Se (x>= y) então
+        Mostra x;
+    Senão
+        Mostra y;
+    Fim-Se
+Fim
+
+Debug
+x | 7 | 3 | 4
+y | 2 | 3 | 9
+
+Massa de Dados
+7, 2
+3, 3
+4, 9
+
+Saída
+7
+3
+9

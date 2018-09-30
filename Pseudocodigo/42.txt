@@ -1,0 +1,30 @@
+﻿42.	Calcule e mostre a série 1 + 2/3 + 3/5 + ... + 50/99
+
+Algorítmo Lot01_Rep41
+Declarar
+	x, y, resultado :num;
+Inicio
+
+	x = 1;
+
+	Enquanto (x <= 50) Faca
+
+		y = (x*2)-1;
+		resultado = resultado + (x/y);
+		x++;
+		Mostra resultado;
+
+	Fim-Enquanto
+
+Fim
+
+Debug
+x		  | 1 |    2 |    3 | ...
+y		  | 1 |    3 |    5 | ...
+resultado | 1 | 1.66 | 2.26 | ...
+
+Saída
+1
+1.66
+2.26
+...

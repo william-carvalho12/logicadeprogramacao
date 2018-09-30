@@ -1,0 +1,19 @@
+4. Receba a temperatura em graus Celsius. Calcule e mostre a sua temperatura convertida em fahrenheit F = (9*C+160) /5.
+
+Algorítmo Lot01_Seq01
+Declarar
+    C,F:Num;
+Inicio
+    Ler C;
+    F = (9*C + 160) / 5
+    Mostra F;
+Fim
+
+Debug
+C | 10
+F | 50
+
+Massa de Dados
+10
+
+Saída 50

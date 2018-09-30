@@ -1,0 +1,21 @@
+9.	Receba os 2 números inteiros. Calcule e mostre a soma dos quadrados.
+
+Algorítmo Lot01_Seq09
+Declarar
+    N1, N2, R:Int;
+Inicio
+    Ler N1, N2;
+    R = (N1^2) + (N2^2);
+    Mostrar R;
+Fim
+
+Debug
+N1 | 5
+N2 | 7
+R  | 74
+
+Massa de Dados
+5, 7
+
+Saída 
+74

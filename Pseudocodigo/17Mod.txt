@@ -1,0 +1,10 @@
+17 - Mod(Procedimento)
+
+Algorítmo Lot01_Seq17
+Declarar
+    t, vM, s, lG:Num;
+Inicio
+    Ler t, vM;
+    Proc_LitrosGastos()
+    Mostra lG;
+Fim

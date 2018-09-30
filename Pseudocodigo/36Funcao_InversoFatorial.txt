@@ -1,0 +1,20 @@
+Algorítmo Funcao_InversoFatorial(n:int)
+Declarar
+    x:int;
+    serie:num;
+Inicio
+
+    n = n + 1;
+    x = 1;
+    serie = 1;
+    enquanto(x<=n)
+
+        Mostra serie;
+        serie = serie + 1/Funcao_Fatorial(x);   //A função é do exercício 32
+        x++;
+    
+    Fim-enquanto
+
+    Retorna serie;
+
+Fim-Segue

@@ -1,0 +1,35 @@
+29.	Receba o tipo de investimento (1 = poupança e 2 = renda fixa) e o valor do investimento. Calcule e mostre o valor corrigido em 30 dias sabendo que a poupança = 3%
+e a renda fixa = 5%. Demais tipos não serão considerados.
+
+Algorítmo Lot01_Dec29
+Declarar
+    tipo, valor, resultado:Num;
+Inicio
+    Ler tipo;
+    Ler valor;
+    Se (tipo == 1) então
+        resultado = valor * 1,03;
+    Senão
+        Se (tipo == 2) então
+            resultado = valor * 1,05;
+        Senão
+            Mostra "Tipo desconhecido, insira 1 para poupança ou 2 para renda fixa";
+        Fim-se 
+    Fim-se
+    Mostra resultado; 
+Fim
+
+Debug
+tipo      |  0  |  1  |  2
+valor     | 100 | 100 | 100
+resultado |     | 103 | 105
+
+Massa de Dados
+0, 100
+1, 100
+2, 100
+
+Saída
+"Tipo desconhecido, insira 1 para poupança ou 2 para renda fixa";
+103
+105

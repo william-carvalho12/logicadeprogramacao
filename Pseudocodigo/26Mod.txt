@@ -1,0 +1,12 @@
+26 - Mod(Procedimento)
+
+Algorítmo Lot01_Dec26
+Declarar
+    x, y, r:Int;
+Inicio
+    Ler x;
+    Ler y;
+
+    Proc_Multiplo();
+    
+Fim

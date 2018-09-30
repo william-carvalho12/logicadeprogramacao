@@ -1,0 +1,34 @@
+26.	Receba 2 números inteiros. Verifique e mostre se o maior número é múltiplo do menor.
+
+Algorítmo Lot01_Dec26
+Declarar
+    x, y, r:Int;
+Inicio
+    Ler x;
+    Ler y;
+    Se (x>=y) então
+        r = x % y;
+    Senão
+        r = y % x;    
+    Fim-Se
+    Se (r == 0) então
+        Mostra "O maior é múltiplo do menor";
+    Senão
+        Mostra "O maior não é múltiplo do menor";
+    Fim-Se    
+Fim
+
+Debug
+x | 3 | 4 | 2 
+y | 2 | 8 | 2
+r | 1 | 0 | 2
+
+Massa de Dados
+3, 2
+2, 2
+4, 8
+
+Saída
+"O maior não é múltiplo do menor"
+"O maior é múltiplo do menor"
+"O maior é múltiplo do menor"

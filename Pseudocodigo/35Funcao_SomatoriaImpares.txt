@@ -1,0 +1,17 @@
+Algoritmo Funcao_SomatoriaImpares(valor1:int, valor2:int)
+Declarar
+    resto, somatoria:int;
+Inicio
+    maior = Funcao_Maior(valor1, valor2);
+    menor = Funcao_Menor(valor1, valor2);
+
+    Para (i=maior-1; i>menor; i--) Faca
+        resto = i%2;
+        Se(resto != 0) então
+            somatoria = somatoria + i;
+        Fim-Se
+    Fim-Para
+    
+    Retorna somatoria;
+
+Fim-Segue

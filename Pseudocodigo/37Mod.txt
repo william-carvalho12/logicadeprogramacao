@@ -1,0 +1,11 @@
+37 - Mod (Função)
+
+Declarar
+n:int;
+
+Inicio
+
+    Ler n;
+    Funcao_Fibonacci(n);
+    
+Fim

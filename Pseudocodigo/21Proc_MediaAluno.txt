@@ -1,0 +1,14 @@
+Procedimento Proc_MediaAluno()
+
+    mA = (n1 + n2 + n3 + n4) / 4;
+    Se (mA>=6) então
+        Mostra "APROVADO";
+    Senão
+        Se (mA>=3) então
+            Mostra "EXAME";
+        Senão
+            Mostra "RETIDO";
+        Fim-Se
+    Fim-Se
+
+Segue

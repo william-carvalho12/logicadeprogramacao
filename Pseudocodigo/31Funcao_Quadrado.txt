@@ -1,0 +1,12 @@
+Algorítmo Funcao_Quadrado(num:int)
+Declarar
+
+    quadrado:int;
+    
+Inicio
+
+    quadrado = num ^ 2;
+
+    Retorna(quadrado);
+
+Fim-Segue

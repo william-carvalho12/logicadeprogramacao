@@ -1,0 +1,13 @@
+28 - Mod(Procedimento)
+
+Algorítmo Lot01_Dec28
+Declarar
+    precoA, mediaM:Num;
+Inicio
+
+    Ler mediaM;
+    Ler precoA;
+
+    Proc_NVPreco();
+    
+Fim

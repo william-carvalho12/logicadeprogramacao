@@ -1,0 +1,6 @@
+Procedimento Proc_VM();
+
+    vM = (nV * eC) / t;
+    vM = (vM * 60) / 1000;
+
+Segue

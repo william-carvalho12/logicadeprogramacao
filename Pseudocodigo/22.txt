@@ -1,0 +1,25 @@
+22.	Receba 2 valores inteiros e diferentes. Mostre seus valores em ordem crescente.
+
+Algorítmo Lot01_Dec22
+Declarar
+    x, y:Int;
+Inicio
+    Ler x, y;
+    Se(x>y) então
+        Mostra y, x;
+    Senão
+        Mostra x, y;
+    Fim-se
+Fim
+
+Debug
+x | 1 | 4
+y | 2 | 3
+
+Massa de Dados
+1, 2
+4, 3
+
+Saída
+1, 2
+3, 4

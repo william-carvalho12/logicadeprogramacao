@@ -1,0 +1,12 @@
+43 - Mod (Função)
+
+Declarar
+    ana, maria, ano :int;
+Inicio
+
+    ana = 110;
+    maria = 150;
+ 
+    Mostra Funcao_CalculoAltura(ana, maria);
+
+Fim

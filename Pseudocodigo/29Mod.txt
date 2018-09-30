@@ -1,0 +1,12 @@
+29 - Mod(Procedimento)
+
+Algorítmo Lot01_Dec29
+Declarar
+    tipo, valor, resultado:Num;
+Inicio
+    Ler tipo;
+    Ler valor;
+    
+    Proc_CCPP();
+    
+Fim

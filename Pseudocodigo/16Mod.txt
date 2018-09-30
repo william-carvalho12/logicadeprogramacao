@@ -1,0 +1,10 @@
+16 - Mod(Procedimento)
+
+Algorítmo Lot01_Seq16
+Declarar
+    hT, vPH, pD, nD, sB, sL:Num;
+Inicio
+    Ler hT, vPH, pD, nD;
+    Proc_Sal();
+    Mostra SL;
+Fim

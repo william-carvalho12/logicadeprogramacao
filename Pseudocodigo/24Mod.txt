@@ -1,0 +1,9 @@
+24 - Mod(Procedimento)
+
+Algorítmo Lot01_Dec24
+Declarar
+    x, r2, r3:Int;
+Inicio
+    Ler x;
+    Proc_Divisivel();
+Fim

@@ -1,0 +1,23 @@
+6.	Receba os valores em x e y. Efetua a troca de seus valores e mostre seus conteúdos.
+
+Algorítmo Lot01_Seq06
+Declarar
+    x, y, T1, :Num;
+Inicio
+    Ler X, Y;
+    T1 = x;
+    x = y;
+    y = T1;
+    Mostra x + ", " + y;
+Fim
+
+Debug
+x  | 7 | 4
+y  | 4 | 7
+T1 | 7 |
+
+Massa de Dados
+7, 4
+
+Saída
+4, 7

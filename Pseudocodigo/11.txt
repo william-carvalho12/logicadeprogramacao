@@ -1,0 +1,20 @@
+11.	Receba o raio de uma circunferência. Calcule e mostre o comprimento da circunferência.
+
+Algorítmo Lot01_Seq11
+Declarar
+    r, c:Num;
+Inicio
+    Ler r;
+    c = 2*3,14*r;
+    Mostra c;
+Fim
+
+Debug
+r | 2,00
+c | 12,56
+
+Massa de Dados
+2,00
+
+Saída
+12,56

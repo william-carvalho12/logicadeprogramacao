@@ -1,0 +1,16 @@
+Algoritmo Funcao_Potenciacao(base:num, expoente:num)
+Declarar
+    resultado:num;
+Inicio
+
+    resultado = base;
+
+    Para(i = exponte; i > 1; i--) Faca
+
+        resultado = resultado * base;
+
+    Fim-Para
+
+    Retorna resultado;
+
+Fim

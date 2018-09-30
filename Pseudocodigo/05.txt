@@ -1,0 +1,26 @@
+5.	Receba os coeficientes A, B e C de uma equação do 2º grau (AX²+BX+C=0). Calcule e mostre as raízes reais (considerar que a equação possue2 raízes).
+
+Algorítmo Lot01_Seq05
+Declarar
+    a, b, c, Delta, R1, R2:Int;
+Inicio
+    Ler a, b, c;
+    Delta = (b^2) - 4*a*c
+    R1 = (-b + delta^(1/2)) / (2*a);
+    R2 = (-b - delta^(1/2)) / (2*a);
+    Mostra "x1 = " + R1 + "e x2 = " + R2;
+Fim
+
+Debug
+a     | 1
+b     | 5
+c     | 6
+Delta | 1
+R1    | -2
+R2    | -3
+
+Massa de Dados
+-1, 5, 6
+
+Saída
+2, 3

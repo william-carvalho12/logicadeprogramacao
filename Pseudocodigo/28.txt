@@ -1,0 +1,49 @@
+28.	Receba a média mensal e o preço atual de um produto. Calcule e mostre o novo preço sabendo que:
+Venda Mensal    | 	Preço Atual	 |   Preço Novo
+< 500           |	  < 30       |	+10%
+>= 500 e < 1000 |  >= 30 e < 80  |  +15%
+>= 1000      	|     >= 80      |  -5%
+Obs.: para outras condições, preço novo será igual ao preço atual.
+
+Algorítmo Lot01_Dec28
+Declarar
+    precoA, mediaM, precoN:Num;
+Inicio
+    Ler mediaM;
+    Ler precoA;
+    Se (mediaM < 500 && precoA < 30) então
+        precoN = precoA * 1.10;
+    Senao
+        Se(mediaM >= 500 && mediaM < 1000 && precoA >=30 && precoA <80) então
+            precoN = precoA * 1.15;
+        Senao
+            Se(mediaM >= 1000 && precoA >= 80) então
+                precoN = precoA * 0.95;
+            Senao
+                precoN = precoA;
+            Fim-Se
+        Fim-Se
+    Fim-Se
+    Mostra precoN;
+Fim
+
+Debug
+mediaM | 90 |  500 | 999 | 1000 | 8574 | 550
+precoA | 10 |   30 |  40 |   80 |  100 | 10
+precoN | 11 | 34.5 |  46 |   76 |   95 | 10
+
+Massa de Dados
+90, 10
+500, 30
+999, 40
+1000, 80
+8574, 100
+550, 10
+
+Saída
+11
+(34.5)
+46
+76
+95
+10

@@ -1,0 +1,9 @@
+Procedimento Proc_MostraMaior()
+
+    Se (x>= y) então
+        Mostra x;
+    Senão
+        Mostra y;
+    Fim-Se
+
+Segue

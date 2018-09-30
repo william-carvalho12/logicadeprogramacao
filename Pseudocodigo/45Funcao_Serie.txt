@@ -1,0 +1,27 @@
+Algoritmo Funcao_Serie(posicao:int)
+Declarar
+	x, y:int;
+	resultado:num;
+Inicio
+
+    x = 1;
+
+    Enquanto (x <= posicao) Faca
+		
+		y = x ^ 2
+		
+		Se (x%2 == 0) Então
+			resultado = resultado - (x / y);
+		Senão 
+			resultado = resultado + (x / y);
+		Fim-Se
+
+		Mostra Resultado; 
+		
+		x++;
+
+	Fim-Enquanto
+
+    Return 0;
+
+Fim

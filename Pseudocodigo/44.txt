@@ -1,0 +1,29 @@
+﻿44.	Receba o número da base e do expoente. Calcule e mostre o valor da potência.
+
+Algorítmo Lot01_Rep44
+Declarar
+  base, expoente, resultado :num;
+Inicio
+  Ler base;
+  Ler expoente;
+  resultado = base;
+
+  Para (expoente; expoente > 1; expoente--) Faca
+  
+    resultado = (resultado * base);  
+    
+  Fim-Para
+
+  Mostra resultado;
+Fim
+
+Debug
+base      | 2 |  
+expoente  | 4 | 3 | 2 |  1 |
+resultado | 2 | 4 | 8 | 16 |
+
+Massa de Dados
+2, 4
+
+Saida
+16
