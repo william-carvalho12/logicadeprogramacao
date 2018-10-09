@@ -14,7 +14,6 @@ function lote1_01() {
 function lote1_02() {
 
     var Salario = parseInt(prompt("Digite o salario: "));
-    var Area = (Lado^2);
  
     Salario = Salario * 1.15;
     
