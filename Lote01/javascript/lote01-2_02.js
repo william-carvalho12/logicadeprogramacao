@@ -22,7 +22,7 @@ for ( i=1; i <= 100; i++){
     }
 }
 
-var media = soma /10;
+var media = soma /100;
 console.log("Media: ", media);
 console.log("Menor: ", vt[0]);
 console.log("Maior: ", vt[9]);
