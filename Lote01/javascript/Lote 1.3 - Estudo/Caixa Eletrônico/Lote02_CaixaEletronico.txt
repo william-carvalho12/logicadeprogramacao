@@ -1,0 +1,17 @@
+CAIXA ELETRÔNICO
+
+Declarar
+    menu:int, 
+Inicio
+    Escolha menu
+    Caso (menu == 1) Faça
+        procCarregarNotas();
+    Caso (menu == 2) Faça
+        procRetirarNotas();
+    Caso (menu == 3) Faça
+        procEstatistica();
+    Caso (menu == 9) Faça
+        exit;
+    OutroCaso
+        Mostra "Opção Inválida!";
+    Fim-Escolha

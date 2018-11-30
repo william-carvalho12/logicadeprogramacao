@@ -1,7 +1,7 @@
 
 
 
-Algorítmo Lot02_Vet0X
+Algorítmo Lot02_Matxx
 Declarar
 
 Inicio

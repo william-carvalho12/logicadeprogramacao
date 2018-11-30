@@ -1,0 +1,32 @@
+10.	Criar uma matriz [8][8] onde o programa irá carregar segundo:
+|casa | 1 | 2 | 3 | 4 | ... | *Exibir a soma |
+|valor| 1 | 2 | 4 | 8 | ... |    dos valores |
+
+    Considerando que a casa vai até 8 e continua como 9, 10, 11... 64
+
+Algorítmo Lot02_Mat10
+Declarar
+    matriz[8,8]:int, valor:int, somatoria:int;
+Inicio
+    Para(x = 1; x <= 8; x++) Faça
+        Para(y = 1; y <= 8, y++) Faça
+            valor = 2 ^ (matriz[x,y] - 1);
+            somatoria = somatoria + valor;
+        Fim-Para   
+    Fim-Para
+    Mostra somatoria;
+Fim
+
+    Considerando que a casa vai até 8, e reseta para 1 a cada linha;
+
+Algorítmo Lot02_Mat10
+Declarar
+    matriz[8,8]:int, valor:int, somatoria:int;
+Inicio
+    Para(y = 1; y <= 8, y++) Faça
+        valor = 2 ^ (matriz[x,y] - 1);
+        somatoria = somatoria + valor;
+    Fim-Para   
+    somatoria * 8;
+    Mostra somatoria; 
+Fim

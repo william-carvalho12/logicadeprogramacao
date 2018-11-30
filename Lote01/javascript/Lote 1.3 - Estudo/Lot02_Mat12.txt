@@ -1,0 +1,21 @@
+12.	Carregar códigos das peças em um tabuleiro de xadrez, onde:
+
+|Código:|    1 |     2 |     3 |      4 |      5 |   6 |     7 |
+|Peça:  | Peão | Torre | Bispo | Cavalo | Rainha | Rei | Vazio |
+Calcular e mostrar a soma das peças do tabuleiro.
+
+Não pode utilizar estrutura de decisão e Escolha Caso na contagem das peças
+
+
+Algorítmo Lot02_Mat12
+Declarar
+    matriz[8,8]:int, vetor[7]:int;
+Inicio
+    Para(x = 1; x<=8; x++) Faça
+        Para(y = 1; y<=8; y++) Faça
+            Ler matriz[x,y];
+            vetor[matriz[x,y]]++;
+        Para-Fim
+    Para-Fim
+    Mostra vetor;
+Fim

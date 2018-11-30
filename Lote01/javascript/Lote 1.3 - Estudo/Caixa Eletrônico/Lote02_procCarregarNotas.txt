@@ -1,0 +1,8 @@
+1.1.Carregar a quantidade de notas em uma área da memória com 6 ocorrências
+                        2 5 10 20 50 100
+
+Procedimento procCarregarNotas() {
+    
+
+
+}

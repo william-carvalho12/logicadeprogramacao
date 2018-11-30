@@ -1,0 +1,27 @@
+9.	Criar e carregar uma matriz [4][4] com valores aleatórios, sendo que a
+diagonal principal terá seus dados carregados no programa segundo:
+
+| 1 |   |   |   |
+|   | 4 |   |   |
+|   |   | 16|   |
+|   |   |   | 64|
+
+
+Algorítmo Lot02_Mat09
+Declarar
+    matriz[4,4]:num;
+Inicio
+    Para(x = 1; x <= 4; x++) Faça
+        Para(y = 1; y <= 4, y++) Faça
+            Se (x=y) Então
+                matriz[x,y] = 4^(x-1);
+
+            Senão
+                Ler matriz[x,y];
+
+            Fim-se
+
+        Fim-Para
+    Fim-Para
+Fim
+

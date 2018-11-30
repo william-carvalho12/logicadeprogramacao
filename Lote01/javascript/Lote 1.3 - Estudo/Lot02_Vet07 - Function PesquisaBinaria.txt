@@ -1,0 +1,19 @@
+Função pesquisaBinaria (vetor, valor) {
+    Declarar
+        min:int, max:int, media:int;
+    Inicio
+        Enquanto (min <= max) Faça
+            media = (max + min) / 2;
+
+            Se(vetor[media] == n) Então
+                retorna "O valor existe na posição: " + media;
+            Senão se (vetor[media] <n) Então
+                min = media + 1;
+            Senão
+                max = media - 1;
+            Fim-se
+        Fim-Enquanto
+        
+        retorna "Não existente no armazenamento";
+    Fim
+}

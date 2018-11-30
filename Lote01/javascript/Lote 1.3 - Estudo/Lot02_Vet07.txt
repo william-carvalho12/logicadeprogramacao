@@ -1,0 +1,24 @@
+7.	A partir do exercício 6 (vetor classificado) solicitar um valor qualquer
+e verificar a sua existência no vetor (utilizar pesquisa binária).
+
+
+Algorítmo Lot02_Vet07
+Declarar
+    valor:num;
+Inicio
+    Ler valor;
+    Mostra pesquisaBinaria(vetor, valor);
+Fim
+    
+Debug
+    Considerando o vetor da 6 como:
+    vetor[5]
+    vetor[3, 4, 7, 8, 13]
+
+Massa de Dados
+7
+5
+
+Saída
+O valor existe na posição: 3
+Não existente no armazenamento!

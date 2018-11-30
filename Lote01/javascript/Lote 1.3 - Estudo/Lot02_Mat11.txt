@@ -1,0 +1,27 @@
+11.	Criar uma matriz [8][8] inteiro e o programa irá carregar segundo:
+
+O quadrado não é preenchido, apenas as bordas
+
+Quadrado 1
+    Quadrado 2
+        Quadrado3
+            Quadrado 4
+
+
+Algorítmo Lot02_Mat11
+Declarar
+    matriz[8,8]:int;
+Inicio
+    Para(valor = 0; valor <= 3; valor++) Faça
+        Para(x = 8 - valor; x >= 1 + valor; x--) Faça
+            Para(y = 8 - valor; y >= 1 + valor; y--) Faça
+                    matriz[x,y] = valor++;
+
+            Fim-Para
+        Fim-Para
+    Fim-Para
+Fim
+
+
+
+            
