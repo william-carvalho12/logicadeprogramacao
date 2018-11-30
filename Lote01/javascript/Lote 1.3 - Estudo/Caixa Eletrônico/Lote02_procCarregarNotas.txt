@@ -1,8 +1,44 @@
-1.1.Carregar a quantidade de notas em uma área da memória com 6 ocorrências
-                        2 5 10 20 50 100
-
-Procedimento procCarregarNotas() {
+Procedimento procCarregarNotas();
     
+    declarar notaInserida
+    declarar frase1 = "Insira a quantidade de notas de R$" 
+    declarar frase2 = ",00."
 
 
-}
+    Para(i = 0; i < 6; i++) Faça
+        
+        Escolha i
+        Caso "0" Faça
+            Mostra frase1 + 2 + frase2;
+        Caso "1" Faça
+            Mostra frase1 + 5 + frase2;
+        Caso "2" Faça
+            Mostra frase1 + 10 + frase2;
+        Caso "3" Faça
+            Mostra frase1 + 20 + frase2;
+        Caso "4" Faça
+            Mostra frase1 + 50 + frase2;
+        Caso "5" Faça
+            Mostra frase1 + 100 + frase2;
+        Fim-Escolha
+
+        Ler notaInserida;
+        notas[i] = notas[i] + notaInserida;
+        
+        Escolha i
+        Caso "0" Faça
+            valorTotal = valorTotal + notaInserida*2
+        Caso "1" Faça
+            valorTotal = valorTotal + notaInserida*5
+        Caso "2" Faça
+            valorTotal = valorTotal + notaInserida*10
+        Caso "3" Faça
+            valorTotal = valorTotal + notaInserida*20
+        Caso "4" Faça
+            valorTotal = valorTotal + notaInserida*50
+        Caso "5" Faça
+            valorTotal = valorTotal + notaInserida*100
+        Fim-Escolha
+
+    Fim-Para
+Segue

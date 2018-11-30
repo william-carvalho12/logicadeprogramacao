@@ -1,0 +1,28 @@
+Procedimento procEstatistica();
+    Declara banco;
+
+    Para (x=0; x <=3; x++) Faça 
+
+        Escolha x 
+        Caso "0" Faça
+            banco = "1 - Banco do Brasil"
+        Caso "1" Faça
+            banco = "2 - Santander"
+        Caso "2" Faça
+            banco = "3 - Itaú"
+        Caso "3" Faça
+            banco = "4 - Caixa"
+        Fim-Escolha
+
+        estatisticasBancos[x,2] = estatisticasBancos[x,3] / solicitacaoRetirada;
+
+        estatisticasBancos[x,4] = valorTotal - estatisticasBancos[x,3];
+
+        texto = banco + \n + "O maior valor sacado é: R$" + estatisticasBancos[x, 0] + ",00." + \n +
+        "O menor valor sacado é: R$" + estatisticasBancos[x, 1] + ",00." + \n + 
+        "A média dos saques é: R$" + estatisticasBancos[x,2] + ",00." + \n +   
+        "O valor total dos saques é: R$" + estatisticasBancos[x,3] + ",00."+ \n +
+        "O valor das sobras dos caixas é: R$" + estatisticasBancos[X,4] + "00,.";
+
+        Mostra texto;
+Segue

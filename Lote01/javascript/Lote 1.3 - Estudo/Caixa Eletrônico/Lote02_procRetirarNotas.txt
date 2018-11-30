@@ -1,0 +1,81 @@
+Procedimento procRetirarNotas();
+    declarar qntNotasRetiradas[6];
+    declarar soma;
+    declarar frase1 = "Insira quantas notas de R$";
+    declarar frase2 = ",00 que deseja retirar.";
+    declarar valorDeRetirada;
+    declarar checagemDeNotas;
+    declarar colunaBanco; 
+
+    Mostra "Insira o valor correspondente ao seu banco, onde:" + \n + "1 - Banco do Brasil;" + \n + "2 - Santander;" + \n + "3 - Itaú;" + \n + "4 - Caixa."
+    Ler colunaBanco;
+    colunaBanco--;
+
+    Para(i = 5; i >= 0; i--)
+        
+        Se(notas[i] != 0)
+            Escolha i
+            Caso "5" Faça
+                Mostra frase1 + 100 + frase2;
+            Caso "4" Faça
+                Mostra frase1 + 50 + frase2;
+            Caso "3" Faça
+                Mostra frase1 + 20 + frase2;
+            Caso "2" Faça
+                Mostra frase1 + 10 + frase2;
+            Caso "1" Faça
+                Mostra frase1 + 5 + frase2;
+            Caso "0" Faça
+                Mostra frase1 + 2 + frase2;
+            Fim-Escolha
+            
+            Ler qntNotasRetiradas[i];   
+
+            Se(qntNotasRetiradas[i] > notas[i])
+                Mostra "Quantidade de notas excedidas! Insira um valor de até " + notas[i] + " notas." 
+                i++;
+            Senão 
+                Escolha i
+                Caso "5" Faça
+                    valorDeRetirada = valorDeRetirada + qntNotasRetiradas[i]*100;
+                Caso "4" Faça
+                    valorDeRetirada = valorDeRetirada + qntNotasRetiradas[i]*50;
+                Caso "3" Faça
+                    valorDeRetirada = valorDeRetirada + qntNotasRetiradas[i]*20;
+                Caso "2" Faça
+                    valorDeRetirada = valorDeRetirada + qntNotasRetiradas[i]*10;
+                Caso "1" Faça
+                    valorDeRetirada = valorDeRetirada + qntNotasRetiradas[i]*5;
+                Caso "0" Faça
+                    valorDeRetirada = valorDeRetirada + qntNotasRetiradas[i]*2;
+                Fim-Escolha
+            Fim-Se
+        Fim-Se
+    Fim-Para
+
+    Se (valorDeRetirada > estatisticasBancos[colunaBanco,0])
+        estatisticasBancos[colunaBanco,0] = valorDeRetirada;
+    Senão se (valorDeRetirada < estatisticasBancos[colunaBanco,1] )
+        estatisticasBancos[colunaBanco,1] = valorDeRetirada;
+    Fim-se
+
+    Se (valorDeRetirada > valorTotal) Então
+        Mostra "EXCEDEU O LIMITE DO CAIXA";
+    Senão
+        Para(i = 5; i >= 0 ; i--) Faça
+            notas[i] = notas[i] - qntNotasRetiradas[i];
+        Fim-Para
+        estatisticasBancos[colunaBanco, 3] = estatisticasBancos[colunaBanco, 3] + valorDeRetirada;
+        solicitacaoRetirada++;
+    Fim-se
+
+    Para(i = 0; i < 6; i++) Faça
+        Se (notas[i] == 0) Então
+            checagemDeNotas++;
+        Fim-Se
+    Fim-Para
+
+    Se (checagemDeNotas == 6) Então
+        temNotas = 0;
+    Fim-Se
+Segue
