@@ -1,0 +1,50 @@
+4.	Criar e coletar em um vetor [30] real e calcular e exibir:
+a.	A média do grupo;
+b.	A quantidade de notas acima do grupo;
+c.	As posições dos valores abaixo da média do grupo.
+
+Algorítmo Lot02_Vet04
+Declarar
+    vetor[30]:num, media:num, qntAcima:int;
+Inicio
+    Para (i=1; i <= 30; i++) Faça
+        Ler vetor[i];
+        media = media + vetor[i];
+    Fim-Para
+
+    media = media / 30;
+
+    Mostra "Media: " + media
+
+    Para (i=1; i<=30; i++) Faça
+        Se (vetor[i] > media) Então
+            qntAcima++;
+        Senão Se (vetor[i] < media) Então
+            Mostra "A posição " + i + " está abaixo da média.";
+        Fim-Se
+    Fim-Para
+
+    Mostra "A quantidade de pessoas acima da média é:" + qntAcima;
+Fim
+
+Debug
+    Considerando vetor com tamanho [5], ou seja i<=5 e media/5
+
+    vetor[1] | 7 |    |    |    |    |   |   |   |   |   |   |   |   |
+    vetor[2] |   | 8  |    |    |    |   |   |   |   |   |   |   |   |
+    vetor[3] |   |    |  4 |    |    |   |   |   |   |   |   |   |   |
+    vetor[4] |   |    |    |  5 |    |   |   |   |   |   |   |   |   |
+    vetor[5] |   |    |    |    |  6 |   |   |   |   |   |   |   |   |
+    media    | 7 | 15 | 19 | 24 | 30 |   | 6 |   |   |   |   |   |   |
+    qntAcima |   |    |    |    |    |   |   | 1 | 2 |   |   |   |   |
+    i        | 1 |  2 |  3 |  4 |  5 | 6 |   | 1 | 2 | 3 | 4 | 5 | 6 |
+
+Massa de Dados 
+    7, 8, 4, 5, 6
+
+Saída
+    Media: 6
+    A posição 3 está abaixo da média.
+    A posição 4 está abaixo da média.
+    A posição 5 está abaixo da média.
+    A quantidade de pessoas acima da média é: 2

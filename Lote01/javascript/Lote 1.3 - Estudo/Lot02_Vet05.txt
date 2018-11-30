@@ -1,0 +1,50 @@
+5.	Criar e coletar em um vetor [20] inteiro. Calcule e exiba, segundo:
+10
+∑ (A[1] – A[21–1])
+i = 1
+
+Algorítmo Lot02_Vet05
+Declarar
+    vetor[20]:int, somatoria:int
+Inicio
+    Para (i = 1; i<=20; i++) Faça
+        Ler vetor[i];
+    Fim-Para
+
+    Para (i = 1; i<=10; i++) Faça
+        somatoria = somatoria + (vetor[i] - vetor[21-i]);
+    Fim-Para
+
+    Mostra "Somatória: " + somatoria; 
+Fim   
+
+Debug
+    vetor[1]  | 1      | 
+    vetor[2]  | 2      | 
+    vetor[3]  | 3      | 
+    vetor[4]  | 4      | 
+    vetor[5]  | 5      | 
+    vetor[6]  | 6      | 
+    vetor[7]  | 7      | 
+    vetor[8]  | 8      | 
+    vetor[9]  | 9      | 
+    vetor[10] | 10     | 
+    vetor[11] | 11     | 
+    vetor[12] | 12     | 
+    vetor[13] | 13     | 
+    vetor[14] | 14     | 
+    vetor[15] | 15     | 
+    vetor[16] | 16     | 
+    vetor[17] | 17     | 
+    vetor[18] | 18     | 
+    vetor[19] | 19     | 
+    vetor[20] | 20     |    
+    somatoria |        | -19 | -36 | -51 | -64 | -75 | -84 | -91 | -96 | -99 | -100 |
+    i         | 1 → 20 |   1 |   2 |   3 |   4 |   5 |   6 |   7 |   8 |   9 |   10 | 11
+
+Massa de Dados
+    1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20
+
+
+Saída
+    Somatória: -100

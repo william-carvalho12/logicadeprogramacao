@@ -5,16 +5,16 @@ vt = new Array(19);
 
 for (i=0; i<=19; i++){
 
-    vt[i] = parseFloat(prompt("Insira um Numero"));
+    vt[i] = parseDouble(prompt("Insira um Numero"));
 
 }
 
-for ( i=1; i <= 20; i++){
-    for (var j=20; j<1; j--){
-        if (parseInt(vt[i-1]) < parseInt(vt[i])){
-            var temp = vt[i-1];
-            vt[i-1] =  vt[i];
-            vt[i] = temp;
+for (i = 0; i < 19; i++){
+    for (var j = i + 1; j <= 19; j++){
+        if (parseDouble(vt[j]) < parseDouble(vt[i])){
+           var temp = vt[i];
+            vt[i] =  vt[j];
+            vt[j] = temp ;
         }
     }
 }

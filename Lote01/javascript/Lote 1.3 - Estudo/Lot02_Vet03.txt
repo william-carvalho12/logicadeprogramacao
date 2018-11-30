@@ -1,0 +1,46 @@
+3.	Criar e coletar valores inteiros nos vetores VT1[3] e VT2[3]. Concatenar 
+esses valores em um 3º vetor (VT3[6]) e mostrar os seus dados. P. ex:
+VT1|	1|	2|	3|	|VT2|	4|	5|	6|	|VT3|	1|	2|	3|	4|	5|	6
+
+Algorítmo Lot02_Vet03
+Declarar
+    VT1[3]:int, VT2[3]:int, VT3[6]:int;
+Inicio
+    Para (i=1; i <= 6; i++) Faça
+        Se (i <= 3) Então
+            Ler VT1[i];
+        Senão 
+            Ler VT2[i - 3];
+        Fim-se
+
+        Se (i <= 3) Então
+            VT3[i] = VT1[i];
+        Senão
+            VT3[i] = VT2[i - 3];
+        Fim-se
+    Fim-Para
+
+    Mostrar VT3;
+Fim
+
+Debug
+    VT1[1] | 1 |   |   |   |   |   |
+    VT1[2] |   | 2 |   |   |   |   |
+    VT1[3] |   |   | 3 |   |   |   |
+    VT2[1] |   |   |   | 4 |   |   |
+    VT2[2] |   |   |   |   | 5 |   |
+    VT2[3] |   |   |   |   |   | 6 |
+    VT3[1] | 1 |   |   |   |   |   |
+    VT3[2] |   | 2 |   |   |   |   |
+    VT3[3] |   |   | 3 |   |   |   |
+    VT3[4] |   |   |   | 4 |   |   |
+    VT3[5] |   |   |   |   | 5 |   |
+    VT3[6] |   |   |   |   |   | 6 |
+    i      | 1 | 2 | 3 | 4 | 5 | 6 |
+
+
+Massa de Dados 
+    1, 2, 3, 4, 5, 6
+
+Saída
+    1, 2, 3, 4, 5,6

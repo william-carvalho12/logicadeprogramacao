@@ -1,0 +1,46 @@
+1.	Criar e coletar um vetor [50] inteiro. Calcular e exibir:
+a.	A média dos valores entre 10 e 200;
+b.	A soma dos números ímpares.
+
+Algorítmo Lot02_Vet01
+Declarar
+    vetor[50]:int, media:int, somaImpar:int, j:int;
+Inicio
+    Para (i = 1; i <= 50; i++) Faça
+        Ler vetor[i];
+
+        Se (vetor[i] >=10 e vetor[i] <=200) Então
+            media = media + vetor[i];
+            j++;
+        Fim-se
+
+        Se (vetor[i] mod 2 != 0) Então
+            somaImpar = somaImpar + vetor[i];
+        Fim-se
+    Fim-Para
+
+    media = media / j;
+
+    Mostra "Media:" + media;
+    Mostra "Soma dos números impares: " + somaImpar;
+Fim
+
+Debug
+    Considerando vetor com tamanho [5], ou seja, i<=5
+
+    vetor[1]  |  9 |    |     |     |     |   |      |
+    vetor[2]  |    | 10 |     |     |     |   |      |
+    vetor[3]  |    |    | 103 |     |     |   |      |
+    vetor[4]  |    |    |     | 200 |     |   |      |
+    vetor[5]  |    |    |     |     | 201 |   |      |
+    media     |    | 10 | 113 | 223 |     |   | 74.3 |
+    somaImpar |  9 |    | 112 |     | 313 |   |      |
+    i         |  1 |  2 |   3 |   4 |   5 | 6 |      |
+    j         |    |  1 |   2 |   3 |     |   |      | 
+
+Massa de Dados
+    9, 10, 103, 200, 201
+
+Saída
+    Media:74.3
+    Soma dos números impares: 313

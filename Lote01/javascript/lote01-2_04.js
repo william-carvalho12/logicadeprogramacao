@@ -16,9 +16,9 @@ media = media / 30
 
 for (i=0; i<=29; i++){
     if (vt[i] < media){
-        menores++
+        menores++ //ERRADO 
     }else{
-        maiores++
+        maiores++ 
     }
 }
 

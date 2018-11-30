@@ -1,0 +1,43 @@
+6.	Criar e coletar em um vetor [20] com números aleatórios. Classificar 
+este vetor em ordem crescente e mostre os dados.
+
+Algorítmo Lot02_Vet06
+Declarar
+    vetor[20]:num; troca:num;
+Inicio
+    Para (i = 1; i <= 20; i++) Faça
+        Ler vetor[i];
+    Fim-Para
+
+    Para (i = 1; i < 20; i++) Faça
+        Para (j = i + 1; j <= 20; j++) Faça
+            Se (vetor[j] < vetor[i]) Então
+                troca = vetor[i];
+                vetor[i] = vetor[j];
+                vetor[j] = troca;
+                
+            Fim-se
+        Fim-Para
+    Fim-Para
+
+    Mostra vetor;
+Fim
+
+Debug
+
+Considerando vetores de tamanho 3, portanto i < 3 e j <= 3
+
+    vetor[1] | 3 | 2 |   |   |   |   |   |   | 
+    vetor[2] | 2 | 3 |   |   |   |   |   |   | 
+    vetor[3] | 5 |   |   |   |   |   |   |   | 
+    i        | 1 |   |   |   | 2 |   |   | 3 | 
+    j        | 2 |   | 3 | 4 |   | 3 | 4 |   |
+    troca    | 3 |   |   |   |   |   |   |   | 
+
+Massa de Dados
+3, 2, 5
+
+Saída
+(2,3,5)
+
+
