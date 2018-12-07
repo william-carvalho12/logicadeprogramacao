@@ -1,0 +1,30 @@
+Declarar
+    matriz[20,20]:num; troca:num;
+
+
+
+Inicio
+    Para (x = 0; x < 20; x++) Faça
+        Para (y = 0; y < 20; y++) Faça
+            Ler matriz[x,y];
+        Fim-Para
+    Fim-Para
+
+
+    Para (i = 0; i < 20; i++) Faça   
+        Para (j = 0; j < 20; j++) Faça
+            Para (x = 0 + i; x < 20; x++) Faça
+                Para (y = 0 + j; y < 20; y++) Faça   
+                    Se (matriz[x,y] < matriz[i,j]) Então
+                        troca = matriz[x,y];
+                        matriz[x,y] = matriz[i,j];
+                        matriz[i,j] = troca;
+                        
+                    Fim-Se
+                Fim-Para
+            Fim-para
+        Fim-Para
+    Fim-Para
+
+    Mostra matriz;
+Fim
