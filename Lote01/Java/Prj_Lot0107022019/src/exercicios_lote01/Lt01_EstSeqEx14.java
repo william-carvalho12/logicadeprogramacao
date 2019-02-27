@@ -1,7 +1,7 @@
 /* 14.	Receba 2 ângulos de um triângulo. Calcule e mostre o valor do 3º ângulo.
  ****************************************
  Objetivo: Décimo Quarto exercício em java
- Programador: Bruno Pallin
+ Programador: Bruno Pallin, William V. Carvalho, Daniel Mota
  Data da Criação: 13/02/2019 
  ****************************************
  */

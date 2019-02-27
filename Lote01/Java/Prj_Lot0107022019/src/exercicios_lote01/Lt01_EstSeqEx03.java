@@ -1,7 +1,7 @@
 /* 3.	Receba a base e a altura de um triângulo. Calcule e mostre a sua área.
  ****************************************
  Objetivo: Terceiro exercício em java
- Programador: Bruno Pallin
+ Programador: Bruno Pallin, William V. Carvalho, Daniel Mota
  Data da Criação: 12/02/2019 
  ****************************************
  */

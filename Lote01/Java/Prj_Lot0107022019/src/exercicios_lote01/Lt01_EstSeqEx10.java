@@ -1,7 +1,7 @@
 /* 10.	Receba 2 números reais. Calcule e mostre a diferença desses valores.
  ****************************************
  Objetivo: Décimo exercício em java
- Programador: Bruno Pallin
+ Programador: Bruno Pallin, William V. Carvalho, Daniel Mota
  Data da Criação: 13/02/2019 
  ****************************************
  */

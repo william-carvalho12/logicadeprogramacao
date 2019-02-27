@@ -1,7 +1,7 @@
 /* 15.	Receba os valores de 2 catetos de um triângulo retângulo. Calcule e mostre a hipotenusa.
  ****************************************
  Objetivo: Décimo quinto exercício em java
- Programador: Bruno Pallin
+ Programador: Bruno Pallin, William V. Carvalho, Daniel Mota
  Data da Criação: 13/02/2019 
  ****************************************
  */

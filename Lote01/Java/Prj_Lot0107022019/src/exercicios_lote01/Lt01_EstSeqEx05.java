@@ -2,7 +2,7 @@
  equação possue 2 raízes).
  ****************************************
  Objetivo: Quinto exercício em java
- Programador: Bruno Pallin
+ Programador: Bruno Pallin, William V. Carvalho, Daniel Mota
  Data da Criação: 12/02/2019 
  ****************************************
  */

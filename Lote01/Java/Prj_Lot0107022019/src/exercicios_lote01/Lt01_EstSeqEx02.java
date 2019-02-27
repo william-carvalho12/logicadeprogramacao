@@ -1,7 +1,7 @@
 /* 2.	Receba o salário de um funcionário e mostre o novo salário com reajuste de 15%.
  ****************************************
  Objetivo: Segundo exercício em java
- Programador: Bruno Pallin
+ Programador: Bruno Pallin, William V. Carvalho, Daniel Mota
  Data da Criação: 12/02/2019 
  ****************************************
  */

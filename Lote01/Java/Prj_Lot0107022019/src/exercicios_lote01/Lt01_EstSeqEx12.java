@@ -1,7 +1,7 @@
 /* 12.	Receba o ano de nascimento e o ano atual. Calcule e mostre a sua idade e quantos anos terá daqui a 17 anos.
  ****************************************
  Objetivo: Décimo Segundo exercício em java
- Programador: Bruno Pallin
+ Programador: Bruno Pallin, William V. Carvalho, Daniel Mota
  Data da Criação: 13/02/2019 
  ****************************************
  */

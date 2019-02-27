@@ -1,7 +1,7 @@
 /* 4.	Receba a temperatura em graus Celsius. Calcule e mostre a sua temperatura convertida em fahrenheit F = (9*C+160) /5.
  ****************************************
  Objetivo: Quarto exercício em java
- Programador: Bruno Pallin
+ Programador: Bruno Pallin, William V. Carvalho, Daniel Mota
  Data da Criação: 12/02/2019 
  ****************************************
  */

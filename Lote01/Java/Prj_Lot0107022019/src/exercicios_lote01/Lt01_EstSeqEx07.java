@@ -1,7 +1,7 @@
 /* 7.	Receba os valores do comprimento, largura e altura de um paralelepípedo. Calcule e mostre seu volume.
  ****************************************
  Objetivo: Sétimo exercício em java
- Programador: Bruno Pallin
+ Programador: Bruno Pallin, William V. Carvalho, Daniel Mota
  Data da Criação: 12/02/2019 
  ****************************************
  */

@@ -1,7 +1,7 @@
 /* 8.	Receba o valor de um depósito em poupança. Calcule e mostre o valor após 1 mês de aplicação sabendo que rende 1,3% a. m.
  ****************************************
  Objetivo: Oitavo exercício em java
- Programador: Bruno Pallin
+ Programador: Bruno Pallin, William V. Carvalho, Daniel Mota
  Data da Criação: 13/02/2019 
  ****************************************
  */

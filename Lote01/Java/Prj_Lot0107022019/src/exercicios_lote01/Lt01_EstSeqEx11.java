@@ -1,7 +1,7 @@
 /* 11.	Receba o raio de uma circunferência. Calcule e mostre o comprimento da circunferência.
  ****************************************
  Objetivo: Décimo primeiro exercício em java
- Programador: Bruno Pallin
+ Programador: Bruno Pallin, William V. Carvalho, Daniel Mota
  Data da Criação: 13/02/2019 
  ****************************************
  */

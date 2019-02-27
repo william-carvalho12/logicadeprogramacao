@@ -1,7 +1,7 @@
 /* 1.	Coletar o valor do lado de um quadrado, calcular sua área e apresentar o resultado.
  ****************************************
  Objetivo: Primeiro Exercício em Java
- Programador: Bruno Pallin
+ Programador: Bruno Pallin, William V. Carvalho, Daniel Mota
  Data da Criação: 12/02/2019 
  ****************************************
  */

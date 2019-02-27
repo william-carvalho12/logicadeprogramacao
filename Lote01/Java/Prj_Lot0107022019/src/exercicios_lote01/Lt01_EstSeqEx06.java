@@ -1,7 +1,7 @@
 /* 6.	Receba os valores em x e y. Efetua a troca de seus valores e mostre seus conteúdos.
  ****************************************
  Objetivo: Sexto exercício em java
- Programador: Bruno Pallin
+ Programador: Bruno Pallin, William V. Carvalho, Daniel Mota
  Data da Criação: 12/02/2019 
  ****************************************
  */
