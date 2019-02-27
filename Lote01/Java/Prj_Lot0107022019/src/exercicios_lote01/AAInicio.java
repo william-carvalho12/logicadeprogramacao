@@ -3,6 +3,6 @@ package exercicios_lote01;
  ****************************************
  Objetivo: XXXXXX exercício em java
  Programador: Bruno Pallin, William V. Carvalho, Daniel Mota
- Data da Criação: xx/xx/xxxx
+ Data da Criação: xx/xx/2019
  ****************************************
  */
