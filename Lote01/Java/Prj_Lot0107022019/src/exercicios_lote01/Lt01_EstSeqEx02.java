@@ -17,4 +17,3 @@ public class Lt01_EstSeqEx02 {
 		JOptionPane.showMessageDialog(null, "O novo salário é: R$" + salarioNovo);
 	}
 }
- //O calculo de 100 dá 114,999, não 115
