@@ -20,4 +20,3 @@ public class Lt01_EstSeqEx08 {
 		JOptionPane.showMessageDialog(null, "O valor após um mês de aplicação é: " + aplicado);
 	}
 }
-// Mesmo erro do 02, que dá errado o double por 0,1
