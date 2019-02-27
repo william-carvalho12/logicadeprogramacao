@@ -9,7 +9,7 @@ package exercicios_lote01;
 
 import javax.swing.JOptionPane;
 
-public class Lt01_EstSeqEx08help {
+public class Lt01_EstSeqEx08 {
 	public static void main (String args[]) {
 		double 	deposito, aplicado;
 		
