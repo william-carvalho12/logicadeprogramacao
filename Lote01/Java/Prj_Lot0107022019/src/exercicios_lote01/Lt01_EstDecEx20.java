@@ -20,17 +20,17 @@ public class Lt01_EstDecEx20 {
 		
 		delta = (b^2) - 4*a*c;
 
-	if (delta >= 0){
-		
-		r1 = (-b + delta^(1/2)) / (2*a);
-		r2 = (-b - delta^(1/2)) / (2*a);
-		
-		JOptionPane.showMessageDialog(null,"O valor das raízes são: R1 = " + r1 + " R2 = "+ r2 + "." );
-	}
-
-	else {
-		JOptionPane.showMessageDialog(null,"Não existem raízes reais.");
-	}
+		if (delta >= 0){
+			
+			r1 = (-b + delta^(1/2)) / (2*a);
+			r2 = (-b - delta^(1/2)) / (2*a);
+			
+			JOptionPane.showMessageDialog(null,"O valor das raízes são: R1 = " + r1 + " R2 = "+ r2 + "." );
+		}
+	
+		else {
+			JOptionPane.showMessageDialog(null,"Não existem raízes reais.");
+		}
 	
 	}
 }
