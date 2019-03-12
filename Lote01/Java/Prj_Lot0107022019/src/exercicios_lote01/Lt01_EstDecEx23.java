@@ -23,19 +23,16 @@ public class Lt01_EstDecEx23 {
 		if (x4 <= x1) {
 			JOptionPane.showMessageDialog(null,"Valores organizados em ordem crescente: " + x4 + ",  " + x1 + ",  " + x2 + ",  " + x3 + ".");
 		}
-		else {
-			if (x4 <= x2) {
-				JOptionPane.showMessageDialog(null,"Valores organizados em ordem crescente: " + x1 + ",  " + x4 + ",  " + 2 + ",  " + x3 + ".");
-			}
-			else {
-				if (x4 <= x3) {
-					JOptionPane.showMessageDialog(null,"Valores organizados em ordem crescente: " + x1 + ",  " + x2 + ",  " + x4 + ",  " + x3 + ".");	
-				}
-				
-				else {
-					JOptionPane.showMessageDialog(null,"Valores organizados em ordem crescente: "  + x1 + ",  " + x2 + ",  " + x3 + ",  " + x4 + ".");
-				}
-			}
+		else if (x4 <= x2) {
+			JOptionPane.showMessageDialog(null,"Valores organizados em ordem crescente: " + x1 + ",  " + x4 + ",  " + x2 + ",  " + x3 + ".");
 		}
+		else if (x4 <= x3) {
+			JOptionPane.showMessageDialog(null,"Valores organizados em ordem crescente: " + x1 + ",  " + x2 + ",  " + x4 + ",  " + x3 + ".");	
+		}
+		else {
+			JOptionPane.showMessageDialog(null,"Valores organizados em ordem crescente: " + x1 + ",  " + x2 + ",  " + x3 + ",  " + x4 + ".");
+		}
+			
+		
 	}
 }

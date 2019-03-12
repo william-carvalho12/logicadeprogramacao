@@ -17,12 +17,10 @@ public class Lt01_EstDecEx22 {
 		y = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor de Y"));
 		
 		if (x >= y){
-			
 			JOptionPane.showMessageDialog(null,"Valores organizados em ordem crescente: " + y +", " + x);
 		}
 		
 		else {
-			
 			JOptionPane.showMessageDialog(null,"Valores organizados em ordem crescente: " + x + ", "+ y);
 		}
 	}
