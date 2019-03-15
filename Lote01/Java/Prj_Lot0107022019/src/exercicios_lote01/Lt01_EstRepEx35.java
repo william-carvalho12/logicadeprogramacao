@@ -13,7 +13,7 @@ import javax.swing.JOptionPane;
 
 public class Lt01_EstRepEx35 {
 	public static void main(String args[]) {
-		int x, y, soma=0, resto;
+		int x, y, soma=0;
 		
 		x = Integer.parseInt(JOptionPane.showInputDialog("Digite um valor."));
 		y = Integer.parseInt(JOptionPane.showInputDialog("Digite um valor."));
@@ -39,5 +39,4 @@ public class Lt01_EstRepEx35 {
 		JOptionPane.showMessageDialog(null,"A somatória é: " + soma);
 	}
 }
-
 
