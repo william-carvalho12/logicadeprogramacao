@@ -34,14 +34,12 @@ public class Lt01_EstRepEx40 {
 				primo = false;
 			}	
 					
-					
 			if (primo) {
 				if ((i%2 == 0) && (i != 2)) {
 					primo = false;
 				}
 			}
-					
-					
+							
 			if(primo) {
 				
 				for(int j = 3; j <= (i/2); j++) {
@@ -50,8 +48,7 @@ public class Lt01_EstRepEx40 {
 					}
 				}
 			}
-			
-					
+						
 			if (primo){
 				msg += i + " ";
 			}

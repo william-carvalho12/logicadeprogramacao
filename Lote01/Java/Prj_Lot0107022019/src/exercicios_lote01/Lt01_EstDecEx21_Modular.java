@@ -1,19 +1,7 @@
-/* 21.	Receba 4 notas bimestrais de um aluno. Calcule e mostre 
- * 		a média aritmética. Mostre a mensagem de acordo com a média:
-		 a. Se a média for >= 6,0 exibir “APROVADO”;
-		 b.	Se a média for >= 3,0 ou < 6,0 exibir “EXAME”;
-		 c.	Se a média for < 3,0 exibir “RETIDO”.
-
- ****************************************
- Objetivo: Vigésimo primeiro exercício em java
- Programador: Bruno Pallin, William V. Carvalho, Daniel Mota
- Data da Criação: 27/02/2019
- ****************************************
- */
 package exercicios_lote01;
 import javax.swing.JOptionPane;
 
-public class Lt01_EstDecEx21 {
+public class Lt01_EstDecEx21_Modular {
 	public static void main(String args[]) {
 		double n1, n2, n3, n4, média;
 		
@@ -40,4 +28,5 @@ public class Lt01_EstDecEx21 {
 			}
 		}
 	}
+
 }
